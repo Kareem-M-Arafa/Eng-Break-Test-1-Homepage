@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0
+}
+/* Nav Bar Start */
+nav {
+    background-color: #383A44;
+    padding: 2% 5%;
+    font-size: 150%
+}
+
+.logo {
+    background-color: #fff;
+    color: #383A44;
+    padding: 1.5% 2%;
+    border-radius: 50%;
+    margin-right: 20px
+}
+
+.teamName {
+    color: #fff
+}
+/* Nav Bar End */
+
+
+/* Team 2 Members Start */
+.members, .form {
+    padding: 20px;
+    padding-bottom: 5%;
+    box-shadow: 15px 10px 10px #FFC2BC;
+}
+
+.members>p, .form p {
+    font-size: 200%;
+    text-align: center
+}
+
+.members .memberInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.members span {
+    margin: 2% 8%
+}
+
+.members span img {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #FFC2BC;
+    position: relative;
+}
+
+.members span a {
+    text-align: center;
+    font-size: 150%;
+    display: block
+}
+/* Team 2 Members End */
+
+/* Form Start */
+.form {
+    text-align: center;
+}
+
+.form button {
+    background: #383A44;
+    border: 0;
+    padding: 20px;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 16px
+}
+/* Form End */
