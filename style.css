@@ -1,38 +1,55 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0
+    margin: 0;
 }
 /* Nav Bar Start */
 nav {
-    background-color: #383A44;
+    background-color: #fff;
     padding: 2% 5%;
-    font-size: 150%
+    font-size: 150%;
+    position: sticky;
+    top: 0;
+    z-index: 999999999;
+    box-shadow: 15px 0 30px #FFC2BC;
 }
 
 .logo {
-    background-color: #fff;
-    color: #383A44;
+    background-color: #a19a91;
+    color: #FFF;
     padding: 1.5% 2%;
     border-radius: 50%;
     margin-right: 20px
 }
 
 .teamName {
-    color: #fff
+    color: #a19a91
 }
 /* Nav Bar End */
+
+hr {
+    border: 1px dashed #a19a91;
+}
 
 
 /* Team 2 Members Start */
 .members, .form {
     padding: 20px;
     padding-bottom: 5%;
-    box-shadow: 15px 10px 10px #FFC2BC;
 }
 
-.members>p, .form p {
-    font-size: 200%;
+.members div {
     text-align: center
+}
+
+.members div p, .form p {
+    font-size: 200%;
+    text-align: center;
+    display: inline-block;
+    /* border-bottom: 2px solid #000; */
+    border-left: 15px solid #a19a91;
+    color: #a19a91;
+    padding: 10px;
+    box-shadow: 1px 10px 10px #FFC2BC;
 }
 
 .members .memberInfo {
@@ -68,7 +85,7 @@ nav {
 }
 
 .form button {
-    background: #383A44;
+    background: #B08C89;
     border: 0;
     padding: 20px;
     color: #FFF;
