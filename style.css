@@ -1,16 +1,19 @@
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0
-}
-/* Nav Bar Start */
-nav {
-    background-color: #383A44;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 1.8;
+  background:#06090E;  }
+  
+  nav {
+    background-color: #141d2b;
     padding: 2% 5%;
     font-size: 150%
 }
 
 .logo {
-    background-color: #fff;
+    background-color: #F7F0F0;
     color: #383A44;
     padding: 1.5% 2%;
     border-radius: 50%;
@@ -18,61 +21,104 @@ nav {
 }
 
 .teamName {
-    color: #fff
-}
-/* Nav Bar End */
-
-
-/* Team 2 Members Start */
-.members, .form {
-    padding: 20px;
-    padding-bottom: 5%;
-    box-shadow: 15px 10px 10px #FFC2BC;
+    color: #F7F0F0
 }
 
-.members>p, .form p {
-    font-size: 200%;
-    text-align: center
+a {
+  color: #2c98f0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  a:hover, a:active, a:focus {
+    color: #210606;
+    outline: none;
+    text-decoration: none; }
+
+.left-side
+{
+	background-color:#383a44; 
+	height:666px;
+	float:left;
+	padding-right:60px;
+	margin-left:0px;}
+
+.right-side
+{ 
+	float:right;
+	padding-right:220px;
+	height:666px;
+	background:#bcbdbf}
+	
+.inside-right
+{
+	margin-top:120px;
+	margin-left:100px;
+	}
+	
+.pic
+{ 
+      border: 1px solid #ddd;
+	  padding: 5px;
+	  width: 250px;
+	  border-radius: 20%;}
+ul
+{
+	list-style-type:circle;}
+	
+	
+ul, h4{
+	margin-left:120px;
+	color:#001d4a;
+}
+h3{
+	    font-weight: bold;
+		color:#383a44;
 }
 
-.members .memberInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center
+img , h1{
+	
+	margin-left:40px;
+	margin-top:20px;
+	color:#210606;
+	text-align:center;
+
 }
 
-.members span {
-    margin: 2% 8%
+.button{
+  display: inline-block;
+  padding: 15px 25px;
+  margin-top:10px;
+  margin-left:150px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #001d4a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.members span img {
-    display: inline;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid #FFC2BC;
-    position: relative;
+.button:hover {background-color: #210606}
+
+.button:active {
+  background-color: #001d4a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
-.members span a {
-    text-align: center;
-    font-size: 150%;
-    display: block
-}
-/* Team 2 Members End */
 
-/* Form Start */
-.form {
-    text-align: center;
+h1{
+    -webkit-transition: 1.0s;
+    	
 }
 
-.form button {
-    background: #383A44;
-    border: 0;
-    padding: 20px;
-    color: #FFF;
-    border-radius: 10px;
-    font-size: 16px
+.f2{
+	 -webkit-transition: 1.0s;
 }
-/* Form End */
+
+h4{
+	-webkit-transition: 1.0s;
+}
